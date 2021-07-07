@@ -1,8 +1,8 @@
 =====
-prefix_verification
+check_prefix
 =====
 
-prefix_verification is package that:
+check_prefix is package that:
 check the validity of a country code
 given a nation return the prefix associated
 
@@ -22,7 +22,7 @@ return PrefixStatus object (Enum)
 
 example:
 
-from prefix_veirfication.utils import verify_prefix
+from checkprefix.utils import verify_prefix
 
 country = 'IT'
 
@@ -42,7 +42,7 @@ return Prefixes object (Enum) or None if there's not a match for country
 
 example:
 
-from prefix_verification.utils import get_country_prefix
+from checkprefix.utils import get_country_prefix
 
 country = 'IT'
 
